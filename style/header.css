@@ -14,6 +14,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    /* position relative ele libera a posição para colocar top bottom right and left */
 }
 
 .cabecalho__espaco{
@@ -24,4 +26,19 @@
 
 .cabecalho__imagem{
     padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    /* o displey none desaparece com elemento e não ocupa espaço */
+    position: absolute;
+    /* position absolute ele permite movimente de acordo com outro elemento anterior(elemento pai) que nao for de static */
+    top: 100%;
+    /* top tira o espaco de cima do cabecalho  */
+}
+
+.conteiner__botao:checked ~ .lista-menu{
+    display: block;
+    /* o que foi feito é chamar a função do botao e depois coloca checked ele detecta se aquele input esta preenchido em seguida coloca o ~
+    um combinador css, procura outro elemento em seguida para executar o display block */
 }
