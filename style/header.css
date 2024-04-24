@@ -1,0 +1,27 @@
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Menu.svg");
+    /*  os dois pontos da imagem servem para achar o diretorio porque o header esta dentro de uma pasta precisa sair e achar a pasta das imagens um ponto para sair o outro para entrar na pasta certa*/
+    display: inline-block;
+    /* display block para aceitar a altura e largura da imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* arrumar  menu hamburguer tirar a repitção e colocar no centro impedindo assim de esticar o menu */
+}
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__espaco{
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho__imagem{
+    padding: 1em;
+}
