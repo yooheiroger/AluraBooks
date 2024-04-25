@@ -6,6 +6,11 @@
     <title>Alura Books</title> 
     <link rel="stylesheet" href="reset.css"> 
     <!--  reset serve para resetar a pagina tirar os padroes dos navegadores pois cada navegador tem seus padroes-->
+    <!-- o swiper serve para criar uma lista que rola para os lados o codigo ja tem pronto no site swiperjs -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" 
+    
+    
+/>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -55,6 +60,39 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/Acessibilidade.svg " alt="livro sobre acessibilidade alura"></div>
+                <div class="swiper-slide"><img src="assets/AluraLingua.svg" alt="livro sobre lingua da alura"></div>
+                <div class="swiper-slide"><img src="assets/CasaDoCodigo.svg" alt="livro sobre codigos da alura"></div>
+                <div class="swiper-slide"><img src="assets/Angular.svg" alt="livro sobre angulos da alura"></div>
+                <div class="swiper-slide"><img src="assets/Portugol.svg" alt="livro sobre portugol da alura"></div>
+                
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+                
     </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- esse scrip sempre fica no final antes do /body -->
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+         });
+    </script>
 </body>
 </html>
