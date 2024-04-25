@@ -42,3 +42,32 @@
     /* o que foi feito é chamar a função do botao e depois coloca checked ele detecta se aquele input esta preenchido em seguida coloca o ~
     um combinador css, procura outro elemento em seguida para executar o display block */
 }
+
+.lista-menu__titulo{ 
+
+    padding: 1em;
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-weight: 700;
+    
+}
+.lista-menu__item{
+    background-color: var(--branco);
+    padding: 1em;
+    color: var(--azul-degrade);
+    
+
+}
+.lista-menu__link{
+    background: var(--azul-degrade);
+    /* -webkit-brackground-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    text-transform:uppercase ;
+    text-decoration: none;
+    color: var(--azul-degrade);
+}
+
+.conteiner__botao{
+    display: none
+}
