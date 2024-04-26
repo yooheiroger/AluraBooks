@@ -1,0 +1,37 @@
+.lista{
+    background: var(--azul-degrade);
+    text-align: center;
+}
+.lista__titulo{
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 300 ;
+    color: var(--branco);
+}
+.lista__topicos{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    /* flex wrap serve para quebrar a linha quando os intens chegam no final da linha automatimente joga para baixo */
+    justify-content: center;
+    
+}
+.lista__link{
+    padding: .5em .5em;
+    margin: 1em .5em;
+    
+}
+
+
+.lista__ancora{
+    padding: 1em;
+    color: var(--branco);
+    background-color: var(--laranja);
+    text-decoration: none;
+    transition: all .5s;
+    
+    
+}
+.lista__ancora:hover{
+    background-color:rgb(254, 192, 78)
+}

@@ -74,8 +74,11 @@
     text-align: center;
     text-decoration: none;
     background-color: var(--laranja); 
+    transition: all .5s;
 }
-
+.botoes__ancora:hover{
+    background-color: rgb(255, 186, 74);
+}
 .carrossel__estrelas{
     padding: .5em;
 }
