@@ -76,3 +76,6 @@
     background-color: var(--laranja); 
 }
 
+.carrossel__estrelas{
+    padding: .5em;
+}
