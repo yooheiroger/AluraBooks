@@ -24,11 +24,23 @@
     margin: 1em;
     text-align: center;
     border-radius: 24px;
+    width: 90%;
+  
+}
+
+.novidades__cadastrar__email::placeholder{
+    font-family: var(--font-principal);
+    color: var(--azul);
+    background: url("../assets/Email.svg") no-repeat;
+
 }
 .rodape{
     display: flex;
     background-color: var(--branco);
 
+}
+hr{
+    margin: 0;
 }
 .rodape__link{
     font-size: 16px;
