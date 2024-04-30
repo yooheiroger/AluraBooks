@@ -50,3 +50,22 @@ hr{
     color:rgba(0, 0, 0, 1);
     
 }
+
+@media screen and (min-width: 1024px){
+    .novidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contato__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+    .novidades__titulo{
+        font-size: 24px;
+    }
+    .novidades__cadastrar__email{
+        margin-right: 1em;
+    }
+}

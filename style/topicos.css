@@ -35,3 +35,13 @@
 .lista__ancora:hover{
     background-color:rgb(254, 192, 78)
 }
+
+@media screen and (min-width: 1024px){
+    .lista__titulo{
+        font-size: 24px;
+    }
+    .lista__topicos{
+        font-size: 24px;
+    }
+    .lista__link
+}

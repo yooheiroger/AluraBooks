@@ -34,3 +34,13 @@
     background-position: 1em ;
      
 }
+
+@media screen and (min-width: 1024px){
+    .banner__titulo{
+        font-size: 36px ;
+    }
+    .banner__busca{
+        width: 30%;
+    }
+
+}
