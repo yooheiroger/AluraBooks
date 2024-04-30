@@ -50,6 +50,10 @@ hr{
     color:rgba(0, 0, 0, 1);
     
 }
+.rodape__lista{
+    display: none;
+}
+
 
 @media screen and (min-width: 1024px){
     .novidades{
@@ -67,5 +71,39 @@ hr{
     }
     .novidades__cadastrar__email{
         margin-right: 1em;
+    }
+
+
+
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+
+    .rodape__lista{
+        font-size: 24px;
+        display: block;
+    }
+    .rodape__lista__titulo{
+        font-size: 14px ;
+        color: var(--cinza-claro);
+        display: flex;
+        justify-content: left;
+    }
+    .rodape__lista__item{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin: .6em 0;
+        
+       
+
+    }
+    .rodape__lista__link{
+        text-decoration: none;
+        color: var(--cinza);
+        margin-left: .5em;
     }
 }

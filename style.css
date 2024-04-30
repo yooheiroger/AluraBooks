@@ -12,6 +12,10 @@
     --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-principal:"poppins"
     --font-secundaria:"josefin sans"
+    --cinza:rgba(71, 70, 70, 1);
+    --cinza-claro: #858585;
+
+
 
 }
 
