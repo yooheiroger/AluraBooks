@@ -1,6 +1,8 @@
 .lista{
+    display: flex;
     background: var(--azul-degrade);
     text-align: center;
+    flex-direction: column;
 }
 .lista__titulo{
     padding: 1em;
@@ -43,5 +45,9 @@
     .lista__topicos{
         font-size: 24px;
     }
-    .lista__link
+    
+}
+
+@media screen and (min-width: 1728px){
+    
 }

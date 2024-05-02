@@ -107,3 +107,16 @@ hr{
         margin-left: .5em;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .novidades{
+        padding: 1em 20vw;
+    }
+    .rodape{
+        padding: 3em 0;
+    }
+    .rodape__lista{
+        border-left: 1px solid var(--cinza-claro); 
+        padding-left:1em ;
+    }
+}

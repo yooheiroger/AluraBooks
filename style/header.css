@@ -77,6 +77,9 @@
 .opcoes{
     display: none;
 }
+.cabecalho__texto{
+    display: none;
+}
 
 @media screen and (min-width: 1024px){
 
@@ -116,5 +119,25 @@
     }
     .opcoes__botao{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1720px){
+    .cabecalho__imagem{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        
+    }
+    .cabecalho__texto{
+        margin:.5em;
+       
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    .cabecalho__texto{
+        display: block;
     }
 }
