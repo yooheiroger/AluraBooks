@@ -43,6 +43,12 @@
     um combinador css, procura outro elemento em seguida para executar o display block */
 }
 
+.conteiner__botao:checked~.conteiner__rotulo>.cabecalho__menu-hamburguer{
+    background-image: url("../assets/Menu Aberto.svg");
+}
+.conteiner__botao:checked~.conteiner__rotulo {
+    background: var(--azul-degrade);
+}
 .lista-menu__titulo{ 
 
     padding: 1em;
@@ -119,6 +125,19 @@
     }
     .opcoes__botao{
         display: none;
+    }
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+    .opcoes__item{
+        padding: 2em 1em;
+    }
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+    }
+    .lista-menu__item:hover>.lista-menu__link{
+            -webkit-text-fill-color: var(--branco);
     }
 }
 
